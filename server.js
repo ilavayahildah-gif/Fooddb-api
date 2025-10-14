@@ -6,8 +6,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs')
 
 app.get('/', (req, res)=> {
-    console.log('Here')
-    res.render('index', {text: "Welcome to"})
+    res.render("index", {text: "Welcome to"})
 })
 
 const userRouter = require('./routes/users.js')
