@@ -1,0 +1,131 @@
+nav {
+  background-color: black;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: yellow;
+}
+
+.logo{
+    margin-right:30px;
+    width: 300px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.side-img {
+  width: 100px;
+  height: auto;
+}
+
+.home-btn{
+    background-color: red;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-left:700px;
+    color: white;
+}
+
+.search-btn{
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-left:800px;
+    color: black;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.side-img {
+  width: 100px;
+  height: auto;
+}
+.api-btn{
+    background-color: green;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-left:350px;
+    color: white;
+}
+.premium-btn{
+    background-color: orange;
+    padding: 10px 12px;
+    border-radius: 4px;
+    color: white;
+}
+.meal-btn{
+  background-color: white;
+  color: grey;
+  padding: 10px 12px;
+  border-radius: 4px;
+  margin-left: 350px;
+}
+.features {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.features img {
+  width: 60px;
+  vertical-align: middle;
+}
+
+.features span {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.image-row {
+  display: flex;
+  justify-content: center; /* centers all items */
+  align-items: flex-start;
+  gap: 20px; /* space between images */
+  margin: 30px auto;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+.image-item:hover{
+    transform: scale(1.055);
+    color: yellow;
+}
+
+.image-item {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s;
+}
+
+.image-item img {
+  width: 150px;  /* adjust to your liking */
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.image-item p {
+  font-size: 16px;
+  color: orange;
+  margin: 0;
+}

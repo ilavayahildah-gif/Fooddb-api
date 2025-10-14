@@ -4,82 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <title>API</title>
+        <title>Recipe API</title>
+        <link rel="stylesheet" href="/css/style.css">
         <a href="/", class="home-btn">Home</a>
 
-<style>
-nav {
-  background-color: black;
-  padding: 10px;
-}
-nav a {
-  color: white;
-  margin-right: 15px;
-  text-decoration: none;
-}
-nav a:hover {
-  color: yellow;
-}
-
-.logo{
-    margin-right:30px;
-    width: 300px;
-}
-.grid-container {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  text-align: center;
-  gap: 20px;
-}
-
-.side-img {
-  width: 100px;
-  height: auto;
-}
-
-.home-btn{
-    background-color: red;
-    padding: 8px 12px;
-    border-radius: 4px;
-    margin-left:700px;
-    color: white;
-}
-
-.search-btn{
-    background-color: white;
-    padding: 8px 12px;
-    border-radius: 4px;
-    margin-left:800px;
-    color: black;
-}
-.grid-container {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  text-align: center;
-  gap: 20px;
-}
-
-.side-img {
-  width: 100px;
-  height: auto;
-}
-.api-btn{
-    background-color: green;
-    padding: 8px 12px;
-    border-radius: 4px;
-    margin-left:400px;
-    color: white;
-}
-.premium-btn{
-    background-color: orange;
-    padding: 10px 12px;
-    border-radius: 4px;
-    color: white;
-}
-
-</style>
     </head>
     <body style="background-color: rgb(24, 22, 22)">
         <div action="/submit" method="post">
@@ -94,12 +22,106 @@ nav a:hover {
        <div class="grid-container">
         <img src="/images/meal-icon.png" alt="left" class="side-img">
        <p style="color: white; font-size: 30px; text-align: 30px 50px;">
-        We offer a free recipe API for anyone wanting to use it, with additional premium features if required.
+        We offer a <b style="color: orange;">free recipe API</b> for anyone wanting to use it, with additional premium features if required.
     </p>
     <img src="/images/meal-icon.png" alt="right" class="side-img">
     </div>
     <button class="api-btn">Free API</button>
     <button class="premium-btn">Go Premium</button>
+    <p style="color: white; font-size: 15px; text-align: center;">Click above to upgrade the free Recipe API to premium for <b style="color: orange;">$10 lifetime one-off</b>
+Currently 93 supporters.
+    </p>
+    <hr>
+    <p><button class="meal-btn">Search for a Meal...</button></p>
+      <div class="features">
+  <img src="/images/totalm.png" alt="Fast">
+  <span>Total Meals:</span>
+  <img src="/images/totali.png" alt="Fresh">
+  <span>Total Ingredients:</span>
+  <img src="/images/images.png" alt="Tasty">
+  <span>Images:</span>
+</div>
+<hr>
+<b>
+  <p style="color: white; font-size: 30px; text-align: center;">Latest Meals</p>
+</b>
+<div class="image-row">
+  <a><div class="image-item">
+    <img src="images/image1.jpg" alt="Meal 1">
+    <p>Migas</p></a>
+  </div>
+  <div class="image-item">
+    <img src="images/image2.jpg" alt="Meal 2">
+    <p>15-minute chicken & halloumi burgers</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image3.jpg" alt="Meal 3">
+    <p>Lamb Pilaf (Plov)</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image4.jpg" alt="Meal 4">
+    <p>Strawberries Romanoff</p>
+  </div>
+</div>
+<div class="image-row">
+  <div class="image-item">
+    <img src="images/image5.jpg" alt="Meal 5">
+    <p>Potato Salad (Olivier Salad)</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image6.jpg" alt="Meal 6">
+    <p>Blini Pancakes</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image7.jpg" alt="Meal 7">
+    <p>Fish Soup (Ukha)</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image8.jpg" alt="Meal 8">
+    <p>Beetroot Soup (Borscht)</p>
+  </div>
+</div>
+<hr>
+<div class="image-row">
+  <div class="image-item">
+    <img src="images/image9.png" alt="Meal9">
+    <p>Chicken</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image10.png" alt="Meal10">
+    <p>Salmon</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image11.png" alt="Meal11">
+    <p>Beef</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image12.png" alt="Meal12">
+    <p>Pork</p>
+  </div>
+</div>
+<hr>
+<div class="image-row">
+  <div class="image-item">
+    <img src="images/image1.jpg" alt="Meal 1">
+    <p>Migas</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image2.jpg" alt="Meal 2">
+    <p>15-minute chicken & halloumi burgers</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image3.jpg" alt="Meal 3">
+    <p>Lamb Pilaf (Plov)</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image4.jpg" alt="Meal 4">
+    <p>Strawberries Romanoff</p>
+  </div>
+</div>
+
+
+
     </body>
 
 </html>
