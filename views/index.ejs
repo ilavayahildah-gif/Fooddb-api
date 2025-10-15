@@ -9,11 +9,12 @@
         <a href="/", class="home-btn">Home</a>
 
     </head>
-    <body style="background-color: rgb(24, 22, 22)">
+    <body style="background-color: rgb(24, 22, 22); text-align: justify;">
         <div action="/submit" method="post">
        <nav>
        <img src="/images/logo.svg" class="logo">
        <button class="home-btn"> Home </button>
+       <button class="API-btn">API</button>
        <button class="search-btn">Search..</button>
        </nav>
        <p style="color: white; font-size: 30px; text-align: center;"><%= locals.text || 'Default' %></p>
@@ -82,6 +83,9 @@ Currently 93 supporters.
   </div>
 </div>
 <hr>
+<b>
+  <p style="color: white; font-size: 30px; text-align: center;">Popular Ingredients</p>
+</b>
 <div class="image-row">
   <div class="image-item">
     <img src="images/image9.png" alt="Meal9">
@@ -101,27 +105,80 @@ Currently 93 supporters.
   </div>
 </div>
 <hr>
+<b>
+  <p style="color: white; font-size: 30px; text-align: center;">Random Meals</p>
+</b>
 <div class="image-row">
   <div class="image-item">
-    <img src="images/image1.jpg" alt="Meal 1">
-    <p>Migas</p>
+    <img src="images/image13.jpg" alt="Meal 13">
+    <p>Beef and Mustard pie</p>
   </div>
   <div class="image-item">
-    <img src="images/image2.jpg" alt="Meal 2">
-    <p>15-minute chicken & halloumi burgers</p>
+    <img src="images/image14.jpg" alt="Meal 14">
+    <p>Blini Pancakes</p>
   </div>
   <div class="image-item">
-    <img src="images/image3.jpg" alt="Meal 3">
-    <p>Lamb Pilaf (Plov)</p>
+    <img src="images/image15.jpg" alt="Meal 15">
+    <p>Sugar Pie</p>
   </div>
   <div class="image-item">
-    <img src="images/image4.jpg" alt="Meal 4">
-    <p>Strawberries Romanoff</p>
+    <img src="images/image16.jpg" alt="Meal 16">
+    <p>Rosol (Polish Chicken Soup)</p>
   </div>
 </div>
+<div class="image-row">
+  <div class="image-item">
+    <img src="images/image17.jpg" alt="Meal 17">
+    <p>Home-made Mandazi</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image18.jpg" alt="Meal 18">
+    <p>Boulangere Potatoes</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image19.jpg" alt="Meal 19">
+    <p>Egyptian Fatteh</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image20.jpg" alt="Meal 20">
+    <p>Treacle Tart</p>
+    </div>
+</div>
+    <hr>
+    <b>
+  <p style="color: white; font-size: 30px; text-align: center;">Random Ingredients</p>
+</b>
+    <div class="image-row">
+  <div class="image-item">
+    <img src="images/image21.png" alt="Meal 21">
+    <p>Cucumber</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image22.png" alt="Meal 22">
+    <p>Double Cream</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image23.png" alt="Meal 23">
+    <p>Anchovy Fillet</p>
+  </div>
+  <div class="image-item">
+    <img src="images/image24.png" alt="Meal 24">
+    <p>Chicken Stock</p>
+  </div>
+</div>
+<hr>
+<b>
+  <p style="color: white; font-size: 30px; text-align: center;">Browse Country</p>
+</b>
 
 
+</body>
 
-    </body>
+<script src="/public/scripts/fetchUserInfor.js" ></script>
 
+<script>
+  window.onload((ev)=>{
+
+  })
+</script>
 </html>

@@ -32,15 +32,25 @@ nav a:hover {
     background-color: red;
     padding: 8px 12px;
     border-radius: 4px;
-    margin-left:700px;
+    margin-left:70px;
     color: white;
+}
+.API-btn{
+    background-color: black;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-left:80px;
+    color: white;
+}
+.API-btn:hover{
+  background-color: red;
 }
 
 .search-btn{
     background-color: white;
     padding: 8px 12px;
     border-radius: 4px;
-    margin-left:800px;
+    margin-left:90px;
     color: black;
 }
 .grid-container {
